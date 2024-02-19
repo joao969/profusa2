@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+     
+   
+}
+.background{
+    background: rgba(3,0,12,0.7) url(../ProjetoProfusa/img/frente1.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   
+}
+header{
+    width: 100%;
+    height: 1vh;
+   
+    
+}
+.cabecalho{
+    display:flex;
+    justify-content:flex-end;
+    background-color: rgb(0, 0, 0);
+    
+}
+.imgLogo{
+    position: relative;
+    right: 70%;
+    width: 4%;
+    
+}
+h1{
+    font-size: 100%;
+    margin-left: 2%;
+    color: aliceblue;
+    margin-top: 1.5%;
+    
+/*----------------PAG cabeçalho ---------------*/
+}
+.texto1{
+    position:absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    top: 70%;
+    left: 31%;
+}
+ .texto2{
+    position: absolute;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 530%;
+    color: rgb(255, 255, 255);
+    top: 10%;
+    left: 31%;
+    text-align: center;
+}
+.subtitulo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    font-size: 400%;
+    top: 31%;
+    left: 37%;
+    color: aliceblue;
+}
+.pag1{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.circulo{
+    position: relative;
+    width: 60%;
+    height: 120%;
+    left: 76%;
+    top: 30%;
+    background-color: black;
+    border-radius: 90%;
+}
+.img1{
+    position:absolute;
+    width: 20%;
+    height: 40%;
+    left: 80%;
+    top: 60%;
+    border-radius: 80px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+.logao{
+    width: 100%;
+}
+
+
+
+/* -------BOTAO REDESOCIAL-----*/
+.rede i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display:inline-flex ;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 1%;
+    top: 30%;
+ 
+}
+.rede2 i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display:inline-flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 9%;
+    left: 1%;
+    top: 20%;
+}
+.rede i:hover{
+    background-color: rgb(207, 8, 190);
+ 
+}
+.rede2 i:hover{
+    background-color: rgb(20, 10, 212);
+
+}
+
+/*------------ PAG 2 ---------------*/
+.pag2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 130vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+.icone i{
+    display: block;
+    text-align: center;
+    font-size: 300%;
+    color: chocolate;
+    margin-top: 4%;
+}
+h5{
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+    font-size: 300%;
+    color: chocolate;
+}
+
+.minigaleria{
+    width: 100%;
+    display: block;
+    align-items: center;
+    margin-left:0;
+    margin-top: 7%;
+    columns: 4;
+    
+}
+
+.minigaleria .box img{
+    
+    width: 110%;
+    height: 70vh;
+    border-radius:4px;
+
+}
+/*--------------PAG 3 ------------------*/
+ 
+.pag3{
+    margin-top: -3%;
+    width: 100%;
+    height: 100vh;
+    background-color: chocolate;
+}
+.texto3 ,.h8{
+    position: relative;
+    align-items: center;
+    font-size: 500%;
+   
+}
+.texto ,.h9{
+    position: relative;
+    align-items:center;
+    font-size: 500%;
+   
+}
+
+.testeimg{
+    position: relative;
+    width: 40%;
+    height: 70vh;
+    top: -10%;
+    left: 50%;
+    border: 2px solid black;
+
+}
+
+/*--------------PAG 4 ------------------*/
+.pag4{
+    width: 100%;
+    height: 140vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(255, 255, 255);
+}
+.icone2 i{
+    display: block;
+    text-align: left;
+    font-size: 400%;
+    color: chocolate;
+    margin-top: 10%;
+    margin-left: 48%;
+}
+h6{
+    margin-top: 4%;
+    display: block;
+    margin-left: 40%;
+    font-size: 220%;
+    color: chocolate;
+}
+.textao {
+    width: 20%;
+    margin-top: 6%;
+    display: block;
+    margin-left: 15%;
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+}
+.image3{
+    position: relative;
+    float: left;
+    width: 90%;
+    height: 65%;
+    left: 26%;
+    top: -26%;
+    
+}
+
+/*--------------MAPA BOX ------------------*/
+.mapBox iframe{
+    width: 100%;
+    height: 59vh;
+    margin-left: 0%;
+}
+
+/*------------ PAG 4 ---------------*/
+
