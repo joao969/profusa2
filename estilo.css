@@ -4,7 +4,7 @@
    
 }
 .background{
-    background: rgba(3,0,12,0.7) url(../profusa2/galeria/frente1.jpg);
+    background: rgba(3,0,12,0.7) url(../profusa2/galeria/frentera.jfif);
     background-blend-mode: darken;
     background-position: center;
     background-size: cover;
@@ -34,32 +34,33 @@ h1{
     font-size: 100%;
     margin-left: 2%;
     color: aliceblue;
-    margin-top: 1.5%;
-    
+    margin-top: 1.3%;
+
+    }
 /*----------------PAG cabeçalho ---------------*/
-}
-.texto1{
+
+/*.texto1{
     position:absolute;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 150%;
-    color: rgb(255, 255, 255);
-    top: 70%;
-    left: 31%;
-}
- .texto2{
-    position: absolute;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 530%;
+    font-size: 130%;
+    color: rgb(225, 145, 47);
+    top: 70%;
+    left: 30%;
+}*/
+ .texto2{
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 580%;
     color: rgb(255, 255, 255);
     top: 10%;
-    left: 31%;
+    left: 0%;
     text-align: center;
 }
 .subtitulo{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: absolute;
-    font-size: 400%;
-    top: 31%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    position: relative;
+    font-size: 300%;
+    top: 10%;
     left: 37%;
     color: aliceblue;
 }
@@ -67,8 +68,9 @@ h1{
     width: 100%;
     height: 100vh;
     overflow: hidden;
+   
 }
-.circulo{
+/*.circulo{
     position: relative;
     width: 60%;
     height: 120%;
@@ -91,7 +93,7 @@ h1{
     width: 100%;
 }
 
-
+*/
 
 /* -------BOTAO REDESOCIAL-----*/
 .rede i{
@@ -186,25 +188,30 @@ h5{
     height: 100vh;
     background-color: chocolate;
 }
-.texto3 ,.h8{
-    position: relative;
-    align-items: center;
-    font-size: 500%;
-   
-}
-.texto ,.h9{
-    position: relative;
-    align-items:center;
-    font-size: 500%;
-   
-}
 
-.testeimg{
+.testeimg1{
     position: relative;
-    width: 40%;
-    height: 70vh;
-    top: -10%;
-    left: 50%;
+    width: 22%;
+    height: 60vh;
+    left: 5%;
+    top: 20vh;
+    border: 2px solid black;
+}
+.testeimg2{
+    position: relative;
+    width: 22%;
+    height: 60vh;
+    left: 15%;
+    top: 20vh;
+    border: 2px solid black;
+
+}
+.testeimg3{
+    position: relative;
+    width: 22%;
+    height: 60vh;
+    left: 25%;
+    top: 20vh;
     border: 2px solid black;
 
 }
