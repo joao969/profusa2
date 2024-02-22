@@ -224,10 +224,10 @@ button:hover::before {
     margin-left: 48%;
 }
 
-h6 {
+h6{
     margin-top: 3%;
     display: block;
-    margin-left: 38%;
+    margin-left: 41%;
     font-size: 220%;
     color: chocolate;
 }
@@ -240,7 +240,7 @@ h6 {
     background-color: rgb(212, 103, 1);
 }
 
-.contatinhos {
+.contatos {
     position: relative;
     text-align: center;
     color: aliceblue;
@@ -295,5 +295,9 @@ h6 {
     }
     .button {
         display: none;
+    }
+     .iconeLocal, .h6{
+        text-align: center;
+        justify-content: center;
     }
 }
