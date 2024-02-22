@@ -1,6 +1,7 @@
 * {
     margin: 0;
 }
+
 .background {
     background: rgba(3, 0, 12, 0.7) url(../profusa2/galeria/frentera.jfif);
     background-blend-mode: darken;
@@ -8,10 +9,12 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 header {
     width: 100%;
     height: 1vh;
 }
+
 .cabecalho {
     display: flex;
     justify-content: flex-end;
@@ -134,10 +137,11 @@ h5 {
     border-radius: 4px;
     transition: transform 0.2s;
 }
+
 .minigaleria img:hover {
     transform: scale(1.1);
     z-index: 1;
-   
+
 }
 
 /*--------------BOTAO------------------*/
@@ -236,7 +240,7 @@ button:hover::before {
     margin-left: 48%;
 }
 
-h6{
+h6 {
     margin-top: 3%;
     display: block;
     margin-left: 41%;
@@ -268,48 +272,59 @@ h6{
     margin-left: 0%;
 }
 
-@media screen and (max-width: 1020px){
-    .pag1{
+@media screen and (max-width: 1020px) {
+    .pag1 {
         height: 100vh;
     }
-    .imgLogo{
+
+    .imgLogo {
         width: 30%;
         height: 30%;
-        right:38%;
+        right: 38%;
         top: 14vh;
     }
-    .texto2{
+
+    .texto2 {
         font-size: 300%;
         top: 30%;
         left: 0%;
     }
-    .subtitulo{
+
+    .subtitulo {
         font-size: 150%;
         left: 32%;
         top: 35%;
     }
-    .rede i{
+
+    .rede i {
         top: 2%;
         left: 80%;
         width: 9%;
         height: 5%;
     }
-    .pag2, .h5{
+
+    .pag2,
+    .h5 {
         font-size: 60%;
         height: 50vh;
     }
-    .minigaleria .box img{
+
+    .minigaleria .box img {
         height: 20vh;
     }
-    .pag3{
+
+    .pag3 {
         display: none;
         height: 10vh;
     }
+
     .button {
-      display: none;
-       
+        display: none;
+
     }
-     .iconeLocal, .h6{
+
+    .iconeLocal,
+    .h6 {
         text-align: center;
         justify-content: center;
     }
