@@ -1,0 +1,83 @@
+* {
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+.imgLogo {
+    position: relative;
+    right: -190%;
+    width: 28%;
+    top: -12vh;
+    height: 11vh;
+    border-radius: 60%;
+}
+.cabecalho,
+.h8 {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    color: rgb(222, 121, 12);
+}
+nav {
+    position: relative;
+    left: -60%;
+    top: 0vh;
+    font-size: 150%;
+}
+
+nav a {
+    color: rgb(217, 101, 5);
+}
+
+nav a:hover {
+    color: rgb(255, 253, 251);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    background-color: rgb(0, 0, 0);
+}
+.containerpag3 {
+    width: 100%;
+    columns: 3;
+    background-color: black;
+    margin-top: 0%;
+}
+
+.containerpag3 .box {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.containerpag3 .box img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+.containerpag3 img:hover {
+    transform: scale(0.9);
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    font-size: 100%;
+
+}
