@@ -35,8 +35,8 @@ header {
 .texto2 {
     position: relative;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 700%;
-    color: rgb(255, 255, 255);
+    font-size: 600%;
+    color: white;
     top: 10%;
     left: 2%;
     text-align: center;
@@ -50,7 +50,7 @@ header {
     top: 7%;
     left: 40%;
 
-    color: aliceblue;
+    color: white;
 }
 
 .pag1 {
@@ -60,35 +60,10 @@ header {
 
 }
 
-/* -------BOTAO REDESOCIAL-----*/
-.rede i {
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border: 3px solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 25px;
-    cursor: pointer;
-    position: absolute;
-    right: 5%;
-    top: 5%;
-
-}
-
-
-
-.rede i:hover {
-    background-color: rgb(255, 43, 138);
-
-}
 
 /*------------ PAG 2 ---------------*/
 .pag2 {
-    background-color: rgb(255, 255, 255);
+    background-color:white;
     width: 100%;
     height: 150vh;
     overflow-x: hidden;
@@ -146,7 +121,7 @@ h5 {
 
 /*--------------BOTAO------------------*/
 button {
-    --color: #ab671f;
+    --color: #040404;
     font-family: inherit;
     display: inline-block;
     width: 20em;
@@ -156,10 +131,10 @@ button {
     overflow: hidden;
     cursor: pointer;
     margin: 0px;
-    font-size: 20px;
+    font-size:20px;
     z-index: 1;
     color: var(--color);
-    border: 3px solid var(--color);
+    border: 1px solid var(--color);
     border-radius: 6px;
     position: relative;
 }
@@ -181,7 +156,7 @@ button:hover {
 button:before {
     top: 100%;
     left: 100%;
-    transition: 0.2s all;
+    transition: 0.1s all;
 }
 
 button:hover::before {
@@ -208,10 +183,10 @@ button:hover::before {
 
 .testeimg1 {
     position: relative;
-    width: 70%;
-    height: 60vh;
+    width: 80%;
+    height: 64vh;
     left: 9%;
-    top: 10vh;
+    top: 8vh;
 }
 
 .testeimg2 {
@@ -222,48 +197,89 @@ button:hover::before {
     top: -80vh;
 }
 
-/*--------------PAG 4 ------------------*/
-.pag4 {
-    width: 100%;
-    height: 140vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    background-color: rgb(146, 2, 2);
-}
 
-.iconeLocal i {
-    display: block;
-    text-align: left;
-    font-size: 300%;
-    color: chocolate;
-    margin-top: 18%;
-    margin-left: 48%;
-}
-
-h6 {
-    margin-top: 3%;
-    display: block;
-    margin-left: 41%;
-    font-size: 220%;
-    color: chocolate;
-}
 
 
 /*-------------- PAG 5 ------------------*/
+
+
 .pag5 {
     width: 100%;
-    height: 20vh;
+    height: 90vh;
     background-color: rgb(212, 103, 1);
+    margin-top:40vh ;
 }
 
-.contatos {
+.icone3 i {
     position: relative;
-    text-align: center;
-    color: aliceblue;
-    font-size: 150%;
+    width: 20%;
     top: 5vh;
+    height: 30vh;
+    left: 47%;
+    font-size: 500%;
+    color: rgba(85, 31, 2, 0.907);
+ 
 }
 
+.contatos{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+    left:39% ;
+    color:white;
+    font-size: 160%;
+    top: -1vh;
+}
+.telefone{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+    left: 0% ;
+    color:white;
+    font-size: 100%;
+    top: 16vh;
+}
+
+.endereco{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 100%;
+    left: 16%;
+    top: 9vh;
+}
+.email{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+    left: -17.6% ;
+    color: white;
+    font-size: 100%;
+    top: 23vh;
+}
+/* -------BOTAO REDESOCIAL-----*/
+.rede i {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    height: 7vh;
+    width: 3%;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    border-radius: 50%;
+    font-size: 150%;
+    cursor: pointer;
+    left: 80%;
+    top: 15vh;
+
+}
+
+
+
+.rede i:hover {
+    background-color: rgb(255, 43, 138);
+
+}
 
 /*--------------MAPA BOX ------------------*/
 .mapBox iframe {
